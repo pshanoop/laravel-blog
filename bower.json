@@ -1,0 +1,23 @@
+{
+  "name": "exozet",
+  "version": "1.0.0",
+  "authors": [
+    "Sanoob Pattanath <pshanoop@gmail.com>"
+  ],
+  "description": "Exozet php challenge",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5",
+    "angular": "1.4.4",
+    "angular-resource": "1.4.4",
+    "angular-route": "1.4.4"
+  }
+}
