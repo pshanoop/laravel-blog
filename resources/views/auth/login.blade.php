@@ -15,7 +15,7 @@
 @section('content')
     <div class="wrapper">
 
-        <form class="form-signin" method="post" action="[[URL::route('login')]]">
+        <form class="form-signin" method="post" action="[[route('login')]]">
             [[csrf_field()]]
             <h2 class="form-signin-heading">Please login</h2>
             <input type="text" class="form-control" name="username" placeholder="User name" required="" autofocus="" />

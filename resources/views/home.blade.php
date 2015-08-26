@@ -16,7 +16,7 @@
 @section('content')
     @foreach($articles as $article)
         <div class="post-preview">
-            <a href="[[URL::route('post',$article->id)]]">
+            <a href="[[route('post',$article->id)]]">
                 <h2 class="post-title">
                     [[$article->name]]
                 </h2>

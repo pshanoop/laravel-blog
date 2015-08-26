@@ -28,7 +28,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
-                            <li><a href="[[URL::route('logout')]]">Logout</a></li>
+                            <li><a href="[[route('logout')]]">Logout</a></li>
                         </ul>
                     </li>
                 </ul>

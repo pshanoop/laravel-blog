@@ -41,9 +41,9 @@ class AuthController extends Controller
 
         $this->username = 'username';
         //Redirect url path
-        $this->loginPath = URL::route('login');
-        $this->redirectTo = URL::route('dashboard');
-        $this->redirectAfterLogout = URL::route('home');
+        $this->loginPath = route('login');
+        $this->redirectTo = route('dashboard');
+        $this->redirectAfterLogout = route('home');
     }
 
     /**
